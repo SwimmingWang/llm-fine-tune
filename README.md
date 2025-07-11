@@ -17,11 +17,12 @@ pip install -r requirements.txt
 ## Current method
 1. [SFT](#detailed-infor-about-sft)
 
-Use ```bash run.sh``` to run all the method.
+Use ```bash run.sh``` to run all the methods.
 
 ## Load dataset
 
 I provide some example of loading datasets. If you want to load your customed datasets, add a function in [load_dataset.py](./utils/data/load_dataset.py).
+
 ## Detailed infor about SFT
 
 1. SFT setting code is in [sft.sh](./train/sft/sft.py)
