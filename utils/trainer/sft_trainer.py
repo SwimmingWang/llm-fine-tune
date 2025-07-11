@@ -119,7 +119,7 @@ class SFTTrainer(Trainer):
             train_dataset=train_ds,
             eval_dataset=eval_ds,
             data_collator=partial(sft_collate_fn, tokenizer=tokenizer),
-            tokenizer=tokenizer,
+            processing_class=tokenizer,
         )
 
     def train(self, **kwargs):
